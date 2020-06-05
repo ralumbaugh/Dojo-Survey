@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="~/css/Style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="result" method="post">
+            <label for="Name">Your Name:</label>
+            <input type="text" name="Name" id="Name">
+            <label for="Location">Dojo Location</label>
+            <select name="Location" id="Location">
+                <option value="Home">Home</option>
+                <option value="House">House</option>
+                <option value="Online">Online</option>
+                <option value="Zoom">Zoom</option>
+            </select>
+            <select name="Language" id="Language">
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="CSharp">C#</option>
+                <option value="French">French</option>
+            </select>
+            <label for="Comment">Comment (optional):</label>
+            <input type="text" name="Comment" id="Comment">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
