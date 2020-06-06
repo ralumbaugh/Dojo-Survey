@@ -22,3 +22,4 @@ C:\Users\Ryan\CSharpStack\DojoSurvey\obj\Debug\netcoreapp2.2\DojoSurvey.dll
 C:\Users\Ryan\CSharpStack\DojoSurvey\obj\Debug\netcoreapp2.2\DojoSurvey.pdb
 C:\Users\Ryan\CSharpStack\DojoSurvey\obj\Debug\netcoreapp2.2\DojoSurvey.csproj.CopyComplete
 C:\Users\Ryan\CSharpStack\DojoSurvey\obj\Debug\netcoreapp2.2\Razor\Views\Survey\result.g.cshtml.cs
+C:\Users\Ryan\CSharpStack\DojoSurvey\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs

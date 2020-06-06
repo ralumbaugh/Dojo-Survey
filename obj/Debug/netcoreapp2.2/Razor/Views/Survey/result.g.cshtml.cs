@@ -19,6 +19,7 @@ using DojoSurvey.Models;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0c0b8c583e2c14b93b8eade03a6e57af31a15f6a", @"/Views/Survey/result.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b7b3c9ab648c9ff85d91941193e34231f6bdbbee", @"/Views/_ViewImports.cshtml")]
     public class Views_Survey_result : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Survey>
     {
         #line hidden
@@ -48,7 +49,7 @@ using DojoSurvey.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
             EndContext();
             BeginContext(78, 147, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0c0b8c583e2c14b93b8eade03a6e57af31a15f6a3035", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0c0b8c583e2c14b93b8eade03a6e57af31a15f6a3199", async() => {
                 BeginContext(84, 134, true);
                 WriteLiteral("\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Results</title>\r\n");
                 EndContext();
@@ -68,7 +69,7 @@ using DojoSurvey.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(227, 259, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0c0b8c583e2c14b93b8eade03a6e57af31a15f6a4361", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0c0b8c583e2c14b93b8eade03a6e57af31a15f6a4525", async() => {
                 BeginContext(233, 79, true);
                 WriteLiteral("\r\n    <div class=\"wrapper\">\r\n        <h2>Submitted Info</h2>\r\n        <p>Name: ");
                 EndContext();

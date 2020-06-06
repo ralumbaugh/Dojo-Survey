@@ -1,3 +1,4 @@
+@model Survey
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,24 +9,29 @@
 </head>
 <body>
     <div class="wrapper">
-        <form action="/submit" method="post">
-            <label for="Name">Your Name:</label>
-            <input type="text" name="Name" id="Name">
-            <label for="Location">Dojo Location</label>
-            <select name="Location" id="Location">
+        <form asp-action="Submit" asp-controller="Survey" method="post">
+            <span asp-validation-for="Name"></span>
+            <label asp-for="Name"></label>
+            <input asp-for="Name">
+            <span asp-validation-for="Location"></span>
+            <label asp-for="Location"></label>
+            <select asp-for="Location">
                 <option value="Home">Home</option>
                 <option value="House">House</option>
                 <option value="Online">Online</option>
                 <option value="Zoom">Zoom</option>
             </select>
-            <select name="Language" id="Language">
+            <span asp-validation-for="Language"></span>
+            <label asp-for="Language"></label>
+            <select asp-for="Language">
                 <option value="JavaScript">JavaScript</option>
                 <option value="Python">Python</option>
-                <option value="CSharp">C#</option>
+                <option value="C#">C#</option>
                 <option value="French">French</option>
             </select>
-            <label for="Comment">Comment (optional):</label>
-            <input type="text" name="Comment" id="Comment">
+            <span asp-validation-for="Comment"></span>
+            <label asp-for="Comment"></label>
+            <input asp-for="Comment">
             <input type="submit" value="Submit">
         </form>
     </div>

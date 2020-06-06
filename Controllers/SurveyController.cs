@@ -11,11 +11,17 @@ namespace DojoSurvey.Controllers
             return View();
         }
 
-        [HttpPost("submit")]
-        public ViewResult submit(string Name, string Location, string Language, string Comment)
+        [HttpPost("Submit")]
+        public IActionResult Submit(Survey survey)
         {
-            Survey mySurvey = new Survey(Name,Location,Language,Comment);
-            return View("result", mySurvey);
+            if(ModelState.IsValid)
+            {
+                return View("result", survey);
+            }
+            else
+            {
+                return View("Index");
+            }
         }
     }
 }
